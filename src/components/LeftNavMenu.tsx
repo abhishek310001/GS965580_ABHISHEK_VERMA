@@ -11,7 +11,7 @@ const LeftNavMenu = () => {
   return (
     <aside className="fixed top-16 left-0 h-screen w-64 bg-white-100 text-white shadow-lg">
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-4">Navigation</h2>
+        <h2 className="text-lg font-semibold mb-4 text-black text-center">Navigation</h2>
         <ul>
           {menuItems.map((item) => (
             <li key={item.name} className="mb-2">
