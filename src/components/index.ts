@@ -1,5 +1,8 @@
-import LeftNavMenu from "./LeftNavMenu";
-import TopNavBar from "./TopNavBar";
+import AppLayout from "./layout/AppLayout";
+import LeftNavMenu from "./layout/LeftNavMenu";
+import TopNavBar from "./layout/TopNavBar";
+import ReorderableTable from "./table/ReorderableTable";
 
-
-export { LeftNavMenu, TopNavBar };
+export {
+    AppLayout, LeftNavMenu, ReorderableTable, TopNavBar
+};
