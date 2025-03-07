@@ -26,7 +26,7 @@ const ReorderableTable: React.FC<ReorderableTableProps> = ({ columns, data, onRe
     <DragDropContext onDragEnd={handleDragEnd}>
       <Droppable droppableId="table">
         {(provided) => (
-          <div {...provided.droppableProps} ref={provided.innerRef} className="overflow-x-auto">
+          <div {...provided.droppableProps} ref={provided.innerRef} className="overflow-x-auto max-h-full overflow-y-auto">
             <table className="border-collapse w-full">
               <thead>
                 <tr className="bg-gray-100">
